@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frm_MenuPrincipal">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="etched"/>
+    <children>
+      <grid id="819a" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-2480223"/>
+          <foreground color="-10330775"/>
+          <preferredSize width="170" height="24"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="963c9" class="javax.swing.JButton" binding="Paciente">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4474613"/>
+              <label value="Paciente"/>
+              <text value="Paciente"/>
+            </properties>
+          </component>
+          <component id="bad9e" class="javax.swing.JButton" binding="usuarioButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4474613"/>
+              <text value="Usuario"/>
+            </properties>
+          </component>
+          <component id="9dd5a" class="javax.swing.JButton" binding="sucursalButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4474613"/>
+              <contentAreaFilled value="true"/>
+              <label value="Sucursal"/>
+              <text value="Sucursal"/>
+            </properties>
+          </component>
+          <component id="369d5" class="javax.swing.JButton" binding="valorCríticoButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4474613"/>
+              <text value="Valor Crítico"/>
+            </properties>
+          </component>
+          <component id="881ad" class="javax.swing.JButton" binding="valorReservadoButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4474613"/>
+              <text value="Valor Reservado"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3b4e2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <grid id="a1b0e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-13674978"/>
+              <enabled value="false"/>
+              <focusCycleRoot value="true"/>
+              <preferredSize width="24" height="50"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="c2cc4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12513780"/>
+                  <focusCycleRoot value="false"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <font name="Arial Black" size="16" style="1"/>
+                  <foreground color="-398337"/>
+                  <text value="Menú Principal"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5f493" binding="desktopPaneEmbebido" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16187404"/>
+              <foreground color="-9716901"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
